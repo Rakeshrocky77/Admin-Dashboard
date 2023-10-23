@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+}
+
+.left {
+    background-color: rgba(241, 233, 233, 0.267);
+    display: flex;
+    justify-content: center;
+    width: 250vh;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    width: 250vh;
+}
+
+.brohead {
+    display: flex;
+    justify-content: row;
+    width: 250px;
+}
+
