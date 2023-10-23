@@ -1,3 +1,9 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 .main {
     display: flex;
     flex-direction: row;
@@ -7,19 +13,42 @@
 .left {
     background-color: rgba(241, 233, 233, 0.267);
     display: flex;
-    justify-content: center;
-    width: 250vh;
+    justify-content: flex-start;
+    height: 900px;
+    width: 300px;
 }
 
 .right {
     display: flex;
-    justify-content: center;
-    width: 250vh;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-.brohead {
+
+.section1 {
+    background-color: rgb(238, 162, 162);
     display: flex;
-    justify-content: row;
-    width: 250px;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100px;
+    width: 1000px;
+}
+.section2 {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
 }
 
+.box {
+    border: 2px solid blue;
+    border-radius: 2px;
+    gap:10px;
+}
+
+.boxes {
+    border: 2px solid green;
+}
+
+.square {
+    border: 3px solid red;
+}
