@@ -1,8 +1,8 @@
 
-* {
+/* {
     padding: 0px;
     margin: 0px;
-}
+}*/
 
 .main {
     display: flex;
@@ -12,10 +12,16 @@
 
 .left {
     background-color: rgba(241, 233, 233, 0.267);
-    display: flex;
-    justify-content: flex-start;
-    height: 900px;
-    width: 300px;
+    width: 500px;
+    height: 650px;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+.head {
+    
 }
 
 .right {
@@ -24,15 +30,21 @@
     justify-content: flex-start;
 }
 
-
+.second {
+    background-color: rgb(245, 245, 141);
+}
 .section1 {
     background-color: rgb(238, 162, 162);
+    width: 1000px;
+}
+
+.firstname {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    height: 100px;
-    width: 1000px;
+    
 }
+
 .section2 {
     display: flex;
     flex-direction: row;
